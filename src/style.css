@@ -1,0 +1,198 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Poppins,'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: black;
+}
+
+body {
+    background-image: url("\assets\png\background_geometry.png");
+}
+
+body > header {
+    padding-left: 100px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+
+    display: flex;
+    gap: 80px;
+}
+
+
+body > header ul {
+    display: flex;
+    gap: 80px;
+    list-style-type: none;
+}
+
+nav a {
+    font-size: 16px;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+nav a:hover {
+    font-weight: 700;
+}
+
+#Hero {
+    padding-left: 100px;
+    padding-right: 100px;
+    display: grid;
+    grid-template-columns: 1.6fr 1fr;
+    column-gap: 50px;
+}
+
+#MainHero {
+    padding-top: 70px;
+}
+
+h1 {
+    width: 400px;
+    font-size: 50px;
+    font-weight: 300;
+    line-height: 120%;
+    margin-bottom: 50px;
+}
+
+h1 span {
+    font-weight: 700;
+}
+
+#MainHero > p {
+    width: 600px;
+    font-size: 16px;
+}
+
+#Button {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    display: flexbox;
+}
+
+#Button button {
+    border: none;
+    background: none;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+#Button button:hover {
+    color: #4B7EFF;
+}
+
+#Button img {
+    margin-left: 10px;
+}
+
+#Stats {
+    display: flex;
+    gap: 50px;
+}
+
+#Stats .stat_tile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#Stats .stat_num {
+    font-weight: 700;
+    font-size: 28px;
+    margin: -3px;
+}
+
+#Stats .stat_title {
+    color: #828282;
+    font-size: 12px;
+}
+
+#NftShowcase > img {
+    margin-top: 60px;
+    width: 90%;
+}
+
+.nft_title {
+    font-size: 20px;
+    font-weight: 700;
+    margin-top: 10px;
+    margin-bottom: 30px;
+    width: 50%;
+}
+
+#NftStats {
+    display: flex;
+    gap: 40px;
+    margin-bottom: 30px;
+    align-items: center;
+}
+
+#NftStats .desc {
+    font-size: 12px;
+}
+
+
+#NftStats .vertical_bar {
+    background-color: #4B7EFF;
+    width: 1.4px;
+    height: 50px;
+}
+
+#Bid {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#CryptoValue, #AuctionEnd .stat_num {
+    font-size: 26px;
+    font-weight: 700;
+}
+
+#TenderValue, #AuctionEnd .stat_title {
+    font-size: 13px;
+}
+
+#AuctionEnd {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+#AuctionEnd .tiles {
+    display: flex;
+    gap: 20px;
+}
+
+#Buttons {
+    display: flex;
+    gap: 15px;
+}
+
+#PlaceBid, #ViewArtwork {
+    padding-top: 15px;
+    padding-bottom: 15px;
+    font-size: 13px;
+    width: 35%;
+    cursor: pointer;
+}
+
+#PlaceBid {
+    color: white;
+    background-color: #4B7EFF;
+    border-color: #4B7EFF;
+    border: none;
+    border-radius: 5px;
+}
+
+#ViewArtwork {
+    color: #4B7EFF;
+    background-color: white;
+    border-color: #4B7EFF;
+    border: 2px solid;
+    border-radius: 5px;
+}
+
+#PlaceBid:hover, #ViewArtwork:hover {
+    font-weight: 700;
+}
