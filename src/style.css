@@ -6,7 +6,8 @@
 }
 
 body {
-    background-image: url(assets\png\background_geometry.png);
+    height: 100vh;
+    background: radial-gradient(circle at 100% 0%, rgba(0,212,255,0.0959734235491071) 0%, rgba(255,255,255,1) 100%);
 }
 
 body > header {
