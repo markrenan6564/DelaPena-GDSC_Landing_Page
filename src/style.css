@@ -49,13 +49,17 @@ nav a:hover {
 #Hero {
     padding-left: 100px;
     padding-right: 100px;
-    display: grid;
-    grid-template-columns: 1.6fr 1fr;
-    column-gap: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-between;
 }
 
+
 #MainHero {
+    flex: 3;
     padding-top: 70px;
+    display: flex;
+    flex-direction: column;
 }
 
 h1 {
