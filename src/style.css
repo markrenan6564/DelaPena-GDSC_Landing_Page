@@ -82,7 +82,8 @@ h1 span {
 #Button {
     margin-top: 50px;
     margin-bottom: 50px;
-    display: flexbox;
+    display: flex;
+    align-items: center;
 }
 
 #Button button {
